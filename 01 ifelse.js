@@ -1,3 +1,5 @@
+script.js → Warm_Up/01 ifelse.js
+
 //(1) create a function which accpets the age and tells whether a person is elogeble to vote or not
 
 
