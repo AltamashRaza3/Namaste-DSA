@@ -8,8 +8,9 @@ var reverseString= function(s){
 
   for(let i=0;i<halfLength;i++){
     let temp= s[i];
-    s[i]= s[length];
-    s[length]= temp;
+    s[i]= s[length-1-i];
+    s[length-1-i]= temp;
   }
+  return s;
 };
 console.log(reverseString(s));
