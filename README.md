@@ -5,7 +5,7 @@ Welcome to my repository of daily coding solutions based on the Namaste DSA seri
 
 ---
 
-📅 Goal
+📅 Goal  
 
 To build strong DSA foundations by solving problems from Namaste DSA, with consistent daily practice and implementation in JavaScript.
 
