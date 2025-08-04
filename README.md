@@ -17,137 +17,137 @@ To build strong DSA foundations by solving problems from **Namaste DSA**, with c
 ## 📂 Course Structure & Repository Organization
 
 📦 Namaste-DSA
-├── 📁 01-Introduction/ # Course Introduction & Setup
-│ ├── what-is-dsa.js
-│ ├── time-complexity.js
-│ └── space-complexity.js
-│
-├── 📁 02-Mathematics/ # Mathematical Foundations
-│ ├── gcd-lcm.js
-│ ├── prime-numbers.js
-│ ├── factorial.js
-│ └── power-calculation.js
-│
-├── 📁 03-Recursion/ # Recursion & Backtracking
-│ ├── basic-recursion.js
-│ ├── fibonacci.js
-│ ├── tower-of-hanoi.js
-│ └── n-queens.js
-│
-├── 📁 04-Arrays/ # Array Data Structure
-│ ├── array-basics.js
-│ ├── two-pointers.js
-│ ├── sliding-window.js
-│ ├── kadanes-algorithm.js
-│ └── array-rotation.js
-│
-├── 📁 05-Strings/ # String Algorithms
-│ ├── string-basics.js
-│ ├── pattern-matching.js
-│ ├── anagrams.js
-│ └── palindromes.js
-│
-├── 📁 06-Searching/ # Searching Algorithms
-│ ├── linear-search.js
-│ ├── binary-search.js
-│ ├── ternary-search.js
-│ └── search-variations.js
-│
-├── 📁 07-Sorting/ # Sorting Algorithms
-│ ├── bubble-sort.js
-│ ├── selection-sort.js
-│ ├── insertion-sort.js
-│ ├── merge-sort.js
-│ ├── quick-sort.js
-│ └── heap-sort.js
-│
-├── 📁 08-LinkedList/ # Linked List
-│ ├── singly-linked-list.js
-│ ├── doubly-linked-list.js
-│ ├── circular-linked-list.js
-│ └── linked-list-problems.js
-│
-├── 📁 09-Stack/ # Stack Data Structure
-│ ├── stack-implementation.js
-│ ├── balanced-parentheses.js
-│ ├── infix-postfix.js
-│ └── next-greater-element.js
-│
-├── 📁 10-Queue/ # Queue Data Structure
-│ ├── queue-implementation.js
-│ ├── circular-queue.js
-│ ├── priority-queue.js
-│ └── queue-problems.js
-│
-├── 📁 11-Trees/ # Tree Data Structure
-│ ├── binary-tree.js
-│ ├── binary-search-tree.js
-│ ├── tree-traversals.js
-│ ├── avl-tree.js
-│ └── tree-problems.js
-│
-├── 📁 12-Heaps/ # Heap Data Structure
-│ ├── min-heap.js
-│ ├── max-heap.js
-│ ├── heap-sort.js
-│ └── priority-queue-heap.js
-│
-├── 📁 13-Hashing/ # Hash Tables
-│ ├── hash-table.js
-│ ├── collision-handling.js
-│ ├── hash-problems.js
-│ └── frequency-counter.js
-│
-├── 📁 14-Graphs/ # Graph Algorithms
-│ ├── graph-representation.js
-│ ├── bfs-dfs.js
-│ ├── shortest-path.js
-│ ├── minimum-spanning-tree.js
-│ └── topological-sort.js
-│
-├── 📁 15-Dynamic-Programming/ # Dynamic Programming
-│ ├── dp-basics.js
-│ ├── fibonacci-dp.js
-│ ├── knapsack-problem.js
-│ ├── longest-common-subsequence.js
-│ └── edit-distance.js
-│
-├── 📁 16-Greedy-Algorithms/ # Greedy Approach
-│ ├── activity-selection.js
-│ ├── fractional-knapsack.js
-│ ├── huffman-coding.js
-│ └── minimum-coins.js
-│
-├── 📁 17-Tries/ # Trie Data Structure
-│ ├── trie-implementation.js
-│ ├── autocomplete.js
-│ └── word-search.js
-│
-├── 📁 18-Advanced-Topics/ # Advanced Concepts
-│ ├── segment-trees.js
-│ ├── fenwick-tree.js
-│ ├── disjoint-set.js
-│ └── advanced-problems.js
-│
-├── 📁 19-Interview-Prep/ # Interview Questions
-│ ├── easy-problems/
-│ ├── medium-problems/
-│ ├── hard-problems/
-│ └── company-specific/
-│
-├── 📁 20-Practice-Tests/ # Mock Tests & Assessments
-│ ├── weekly-tests/
-│ ├── topic-wise-tests/
-│ └── final-assessment/
-│
-└── 📄 README.md # You are here!
-
-
----
-
-## 🚀 Course Progress Tracker
-
-### Phase 1: Foundations (Weeks 1-4)
+-├── 📁 01-Introduction/ # Course Introduction & Setup
+-│ ├── what-is-dsa.js
+- │ ├── time-complexity.js
+- │ └── space-complexity.js
+- │
+- ├── 📁 02-Mathematics/ # Mathematical Foundations
+- │ ├── gcd-lcm.js
+- │ ├── prime-numbers.js
+- │ ├── factorial.js
+- │ └── power-calculation.js
+- │
+- ├── 📁 03-Recursion/ # Recursion & Backtracking
+- │ ├── basic-recursion.js
+- │ ├── fibonacci.js
+- │ ├── tower-of-hanoi.js
+- │ └── n-queens.js
+- │
+- ├── 📁 04-Arrays/ # Array Data Structure
+- │ ├── array-basics.js
+- │ ├── two-pointers.js
+- │ ├── sliding-window.js
+- │ ├── kadanes-algorithm.js
+- │ └── array-rotation.js
+- │
+- ├── 📁 05-Strings/ # String Algorithms
+- │ ├── string-basics.js
+- │ ├── pattern-matching.js
+- │ ├── anagrams.js
+- │ └── palindromes.js
+- │
+- ├── 📁 06-Searching/ # Searching Algorithms
+- │ ├── linear-search.js
+- │ ├── binary-search.js
+- │ ├── ternary-search.js
+- │ └── search-variations.js
+- │
+- ├── 📁 07-Sorting/ # Sorting Algorithms
+- │ ├── bubble-sort.js
+- │ ├── selection-sort.js
+- │ ├── insertion-sort.js
+- │ ├── merge-sort.js
+- │ ├── quick-sort.js
+- │ └── heap-sort.js
+- │
+- ├── 📁 08-LinkedList/ # Linked List
+- │ ├── singly-linked-list.js
+- │ ├── doubly-linked-list.js
+- │ ├── circular-linked-list.js
+- │ └── linked-list-problems.js
+- │
+- ├── 📁 09-Stack/ # Stack Data Structure
+- │ ├── stack-implementation.js
+- │ ├── balanced-parentheses.js
+- │ ├── infix-postfix.js
+- │ └── next-greater-element.js
+- │
+- ├── 📁 10-Queue/ # Queue Data Structure
+- │ ├── queue-implementation.js
+- │ ├── circular-queue.js
+- │ ├── priority-queue.js
+- │ └── queue-problems.js
+- │
+- ├── 📁 11-Trees/ # Tree Data Structure
+- │ ├── binary-tree.js
+- │ ├── binary-search-tree.js
+- │ ├── tree-traversals.js
+- │ ├── avl-tree.js
+- │ └── tree-problems.js
+- │
+- ├── 📁 12-Heaps/ # Heap Data Structure
+- │ ├── min-heap.js
+- │ ├── max-heap.js
+- │ ├── heap-sort.js
+- │ └── priority-queue-heap.js
+- │
+- ├── 📁 13-Hashing/ # Hash Tables
+- │ ├── hash-table.js
+- │ ├── collision-handling.js
+- │ ├── hash-problems.js
+- │ └── frequency-counter.js
+- │
+- ├── 📁 14-Graphs/ # Graph Algorithms
+- │ ├── graph-representation.js
+- │ ├── bfs-dfs.js
+- │ ├── shortest-path.js
+- │ ├── minimum-spanning-tree.js
+- │ └── topological-sort.js
+- │
+- ├── 📁 15-Dynamic-Programming/ # Dynamic Programming
+- │ ├── dp-basics.js
+- │ ├── fibonacci-dp.js
+- │ ├── knapsack-problem.js
+- │ ├── longest-common-subsequence.js
+- │ └── edit-distance.js
+- │
+- ├── 📁 16-Greedy-Algorithms/ # Greedy Approach
+- │ ├── activity-selection.js
+- │ ├── fractional-knapsack.js
+- │ ├── huffman-coding.js
+- │ └── minimum-coins.js
+- │
+- ├── 📁 17-Tries/ # Trie Data Structure
+- │ ├── trie-implementation.js
+- │ ├── autocomplete.js
+- │ └── word-search.js
+- │
+- ├── 📁 18-Advanced-Topics/ # Advanced Concepts
+- │ ├── segment-trees.js
+- │ ├── fenwick-tree.js
+- │ ├── disjoint-set.js
+- │ └── advanced-problems.js
+- │
+- ├── 📁 19-Interview-Prep/ # Interview Questions
+- │ ├── easy-problems/
+- │ ├── medium-problems/
+- │ ├── hard-problems/
+- │ └── company-specific/
+- │
+- ├── 📁 20-Practice-Tests/ # Mock Tests & Assessments
+- │ ├── weekly-tests/
+- │ ├── topic-wise-tests/
+- │ └── final-assessment/
+- │
+- └── 📄 README.md # You are here!
+- 
+- 
+ ---
+ 
+- ## 🚀 Course Progress Tracker
+ 
+ ### Phase 1: Foundations (Weeks 1-4)
 - [x] **01-Introduction** - DSA basics, complexity analysis
 - [x] **02-Mathematics** - Mathematical foundations
 - [x] **03-Recursion** - Recursive thinking and problem solving
