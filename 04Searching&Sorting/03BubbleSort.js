@@ -4,9 +4,8 @@
 let arr= [5,4,9,15,1,0];
 
 let n= arr.length;
-let isSwapped = false;
-
 function bubbleSort(arr){
+  let isSwapped = false;
 for(let i=0;i<n-1;i++){
   for(let j=0;j<n-1-i;j++){
     if(arr[j]>arr[j+1]){
