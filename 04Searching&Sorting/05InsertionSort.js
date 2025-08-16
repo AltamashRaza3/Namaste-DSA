@@ -18,3 +18,8 @@ function insertionSort(arr){
 }
 let sortedArray = insertionSort(arr);
 console.log(sortedArray);
+
+// Time Complexity-
+//  Two Loops  - O(n^2);
+// Space Complexity- O(1);
+
