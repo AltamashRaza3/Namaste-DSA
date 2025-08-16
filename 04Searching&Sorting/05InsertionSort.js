@@ -6,13 +6,15 @@ let arr= [7,1,5,12,-10,0,4,3,2];
 function insertionSort(arr){
   let n = arr.length;
   for(let i=1;i<n-1;i++){
-    let curr = a[i];
-    let perv = curr-1;
-    while(arr[perv] > curr && prev >=0){
-      let temp= i;
-      
+    let curr = arr[i];
+    let perv = i-1;
+    while(arr[perv] > curr && perv >=0){
+      arr[perv+1] = arr[perv];
+      perv--;
     }
+    arr[perv+1] = curr;
   }
-  
-  
+  return arr;
 }
+let sortedArray = insertionSort(arr);
+console.log(sortedArray);
