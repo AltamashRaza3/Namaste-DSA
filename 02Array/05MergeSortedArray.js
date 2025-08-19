@@ -10,7 +10,7 @@ The final sorted array should not be returned by the function,
  where the first m elements denote the elements that should be merged,
  and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
  */
-let nums1 = [1,2,3,0,0,0];
+let nums1 = [1,2,3];
 let m = 3;
 let nums2 = [2,5,6];
 let n = 3
