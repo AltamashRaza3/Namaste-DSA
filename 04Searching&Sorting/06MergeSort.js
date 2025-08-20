@@ -1,8 +1,7 @@
 // Merge two sorted Arrays:
-let a1= [2,4,8,9];
-let a2= [1,3,5,7];
+let array= [2,4,8,9,1,3,5,7];
 
-var mergeSort= function(right,left){
+var mergeArray= function(right,left){
   let result = [];
   let i=0; 
   let j=0;
@@ -30,4 +29,15 @@ var mergeSort= function(right,left){
 
   return result;
 }
-console.log(mergeSort(a1,a2));
+
+var mergeSort = function(arr){
+  if(arr.length <= 1 ){
+    return arr;
+  }
+    let mid= arr.length/2;
+    let left = mergeSort(arr.slice(0,mid));
+    let right= mergeSort(arr.slice(mid));
+    return mergeArray(left,right)
+  }
+
+console.log(mergeSort(array));
