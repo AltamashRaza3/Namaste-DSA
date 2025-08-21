@@ -17,17 +17,19 @@ var mergeArray= function(right,left){
     }
   }
 
-  while(i<left.length){
-    result.push(left[i]);
-    i++;
-  }
+  // while(i<left.length){
+  //   result.push(left[i]);
+  //   i++;
+  // }
 
-  while(j<right.length){
-    result.push(right[j]);
-    j++;
-  }
+  // while(j<right.length){
+  //   result.push(right[j]);
+  //   j++;
+  // }
 
-  return result;
+  // return result;
+
+  return[...result, ...left.slice(i), ...right.slice(j)]; // Object clonning.
 }
 
 var mergeSort = function(arr){
