@@ -21,3 +21,5 @@ function linkedList(){
 // Add new element to the tail
 
 // Add new element at particular index
+
+// Deleting a element at the paticular index
