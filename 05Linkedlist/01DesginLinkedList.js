@@ -18,4 +18,6 @@ function linkedList(){
 
 // Add new element to the Head
 
+// Add new element to the tail
+
 // Add new 
