@@ -12,3 +12,10 @@ function linkedList(){
   this.head= null;
   this.size =0;
 }
+
+// Add new node at Head-
+
+
+// Add new element to the Head
+
+// Add new 
