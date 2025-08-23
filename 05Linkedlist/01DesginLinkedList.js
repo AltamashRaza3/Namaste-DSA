@@ -20,4 +20,4 @@ function linkedList(){
 
 // Add new element to the tail
 
-// Add new 
+// Add new element at particular index
