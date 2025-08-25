@@ -39,5 +39,22 @@ function addAtHead(val){
   this.size++;
 }
 // Add new element at particular index
+function addAtIndex(index,val){
+  let newNode = new Node(val);
+  if(index ==0){
+    this.addAtHead(val);
+  }
+  else if(index == null){
+    this.addToTail(val);
+  }
+  else{
+  for(let i=0; i<index-1;i++){
+    curr = curr.next;
+  }
+  newNode.next = curr.next;
+  curr.next = newNode;
+}
+this.size ++;
+}
 
 // Deleting a element at the paticular index
