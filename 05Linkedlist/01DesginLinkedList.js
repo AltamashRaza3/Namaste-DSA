@@ -43,9 +43,11 @@ function addAtIndex(index,val){
   let newNode = new Node(val);
   if(index ==0){
     this.addAtHead(val);
+    return;
   }
   else if(index == null){
     this.addToTail(val);
+    return;
   }
   else{
   for(let i=0; i<index-1;i++){
