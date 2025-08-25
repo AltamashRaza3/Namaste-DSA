@@ -14,7 +14,12 @@ function linkedList(){
 }
 
 // Add new node at Head-
-
+function addAtHead(val){
+  let newNode= new Node(val);
+  newNode.next = this.head;
+  this.head = new Node;
+  this.size ++ ;
+}
 
 // Add new element to the Head
 
