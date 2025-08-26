@@ -22,8 +22,6 @@ function getElement(index){
   return curr.val;
 }
 
-
-
 // Add new element to the Head
 function addAtHead(val){
   let newNode= new Node(val);
@@ -71,11 +69,14 @@ this.size ++;
 }
 
 // Deleting a element in linkedList
-
-function deleteAtIndex(index,val){
- let curr = curr.head
-  for(let i=0;i<index;i++){
-    curr = curr.next;
-  }
-  return curr.val;
+function deleteAtIndex(index){
+if(index <0 || size <= index) return ;
+if(index === 0){
+  this.head = this.head.next;
+}
+let curr = this.head;
+for(let i=0;i<index-1;i++){
+  curr= curr.next;
+}
+curr.next=curr.next.next;
 }
