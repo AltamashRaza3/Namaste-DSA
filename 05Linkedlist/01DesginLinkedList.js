@@ -12,6 +12,17 @@ function newLinkedList(){
   this.head= null;
   this.size =0;
 }
+// Get an element at index--
+function getElement(index){
+  if(index < 0 || index >= size) return -1;
+  let curr = this.head;
+  for(let i=0;i<index;i++){
+    curr = curr.next;
+  }
+  return curr.val;
+}
+
+
 
 // Add new element to the Head
 function addAtHead(val){
@@ -59,4 +70,12 @@ function addAtIndex(index,val){
 this.size ++;
 }
 
-// Deleting a element at the paticular index
+// Deleting a element in linkedList
+
+function deleteAtIndex(index,val){
+ let curr = curr.head
+  for(let i=0;i<index;i++){
+    curr = curr.next;
+  }
+  return curr.val;
+}
