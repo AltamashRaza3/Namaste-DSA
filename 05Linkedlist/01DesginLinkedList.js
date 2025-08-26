@@ -14,7 +14,7 @@ function newLinkedList(){
 }
 // Get an element at index--
 function getElement(index){
-  if(index < 0 || index >= size) return -1;
+  if(index < 0 || index >=this.size) return -1;
   let curr = this.head;
   for(let i=0;i<index;i++){
     curr = curr.next;
@@ -70,7 +70,7 @@ this.size ++;
 
 // Deleting a element in linkedList
 function deleteAtIndex(index){
-if(index <0 || size <= index) return ;
+if(index <0 || this.size <= index) return ;
 if(index === 0){
   this.head = this.head.next;
 }
