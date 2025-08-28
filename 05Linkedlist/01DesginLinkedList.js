@@ -1,11 +1,11 @@
 // Design a linkedList--
 
 //Creating a new node
-function newNode(val){
+function  Node(val){
   this.val= val;
   this.next= null;
  }
-let newNode= newNode(5);
+let newNode= Node(5);
 
 //creating a new linkedList
 function newLinkedList(){
@@ -14,7 +14,7 @@ function newLinkedList(){
 }
 // Get an element at index--
 function getElement(index){
-  if(index < 0 || index >=this.size) return -1;
+  if(index < 0 || index >= this.size) return -1;
   let curr = this.head;
   for(let i=0;i<index;i++){
     curr = curr.next;
@@ -34,8 +34,8 @@ function addAtHead(val){
   function addToTail(val){
     let newNode = new Node(val);
     // Corner-case --> if linkedlist is empty then
-    if(this.head==null){
-      this.head= newNode;
+    if(this.head == null){
+      this.head = newNode;
     }
     // reach to the last element
     else{
@@ -50,6 +50,7 @@ function addAtHead(val){
 // Add new element at particular index
 function addAtIndex(index,val){
   let newNode = new Node(val);
+  if(index<0 || index>= size) return 
   if(index ==0){
     this.addAtHead(val);
     return;
